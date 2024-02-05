@@ -1,0 +1,11 @@
+C:\Users\SOFT\Desktop\ValidationRefactor\ValidatonLibrary\bin\Debug\net8.0\ValidatonLibrary.deps.json
+C:\Users\SOFT\Desktop\ValidationRefactor\ValidatonLibrary\bin\Debug\net8.0\ValidatonLibrary.dll
+C:\Users\SOFT\Desktop\ValidationRefactor\ValidatonLibrary\bin\Debug\net8.0\ValidatonLibrary.pdb
+C:\Users\SOFT\Desktop\ValidationRefactor\ValidatonLibrary\obj\Debug\net8.0\ValidatonLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SOFT\Desktop\ValidationRefactor\ValidatonLibrary\obj\Debug\net8.0\ValidatonLibrary.AssemblyInfoInputs.cache
+C:\Users\SOFT\Desktop\ValidationRefactor\ValidatonLibrary\obj\Debug\net8.0\ValidatonLibrary.AssemblyInfo.cs
+C:\Users\SOFT\Desktop\ValidationRefactor\ValidatonLibrary\obj\Debug\net8.0\ValidatonLibrary.csproj.CoreCompileInputs.cache
+C:\Users\SOFT\Desktop\ValidationRefactor\ValidatonLibrary\obj\Debug\net8.0\ValidatonLibrary.dll
+C:\Users\SOFT\Desktop\ValidationRefactor\ValidatonLibrary\obj\Debug\net8.0\refint\ValidatonLibrary.dll
+C:\Users\SOFT\Desktop\ValidationRefactor\ValidatonLibrary\obj\Debug\net8.0\ValidatonLibrary.pdb
+C:\Users\SOFT\Desktop\ValidationRefactor\ValidatonLibrary\obj\Debug\net8.0\ref\ValidatonLibrary.dll
