@@ -1,4 +1,6 @@
-﻿using ValidatonLibrary;
+﻿using Entities.Concrete;
+using Services.Concrete;
+using Services.ValidationRules;
 
 Product product = new Product
 {
@@ -6,7 +8,7 @@ Product product = new Product
     Name = "Aerkan"
 };
 ValidatorFacade unitOfValidatorWork = new ValidatorFacade(new ProductValidator());
-ProductService productService=new ProductService(unitOfValidatorWork);
+ProductManager productService=new ProductManager(unitOfValidatorWork);
 productService.AddProduct(product);
 
 Console.ReadKey();

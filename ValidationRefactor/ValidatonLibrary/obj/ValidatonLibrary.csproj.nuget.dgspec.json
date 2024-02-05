@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SOFT\\Desktop\\ValidationRefactor\\ValidatonLibrary\\ValidatonLibrary.csproj": {}
+    "C:\\Users\\SOFT\\Desktop\\Yeni klasör\\ValidationRefactor\\ValidatonLibrary\\ValidatonLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SOFT\\Desktop\\ValidationRefactor\\ValidatonLibrary\\ValidatonLibrary.csproj": {
+    "C:\\Users\\SOFT\\Desktop\\Yeni klasör\\ValidationRefactor\\ValidatonLibrary\\ValidatonLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SOFT\\Desktop\\ValidationRefactor\\ValidatonLibrary\\ValidatonLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\SOFT\\Desktop\\Yeni klasör\\ValidationRefactor\\ValidatonLibrary\\ValidatonLibrary.csproj",
         "projectName": "ValidatonLibrary",
-        "projectPath": "C:\\Users\\SOFT\\Desktop\\ValidationRefactor\\ValidatonLibrary\\ValidatonLibrary.csproj",
+        "projectPath": "C:\\Users\\SOFT\\Desktop\\Yeni klasör\\ValidationRefactor\\ValidatonLibrary\\ValidatonLibrary.csproj",
         "packagesPath": "C:\\Users\\SOFT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SOFT\\Desktop\\ValidationRefactor\\ValidatonLibrary\\obj\\",
+        "outputPath": "C:\\Users\\SOFT\\Desktop\\Yeni klasör\\ValidationRefactor\\ValidatonLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

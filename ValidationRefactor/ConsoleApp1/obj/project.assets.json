@@ -2,6 +2,30 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "ValidatonLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
+        }
+      },
       "ValidatonLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -15,6 +39,16 @@
     }
   },
   "libraries": {
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/Services.csproj",
+      "msbuildProject": "../Services/Services.csproj"
+    },
     "ValidatonLibrary/1.0.0": {
       "type": "project",
       "path": "../ValidatonLibrary/ValidatonLibrary.csproj",
@@ -23,6 +57,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Entities >= 1.0.0",
+      "Services >= 1.0.0",
       "ValidatonLibrary >= 1.0.0"
     ]
   },
@@ -33,11 +69,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SOFT\\Desktop\\ValidationRefactor\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\SOFT\\Desktop\\Yeni klasör\\ValidationRefactor\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\SOFT\\Desktop\\ValidationRefactor\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "C:\\Users\\SOFT\\Desktop\\Yeni klasör\\ValidationRefactor\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\SOFT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SOFT\\Desktop\\ValidationRefactor\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\SOFT\\Desktop\\Yeni klasör\\ValidationRefactor\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +94,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\SOFT\\Desktop\\ValidationRefactor\\ValidatonLibrary\\ValidatonLibrary.csproj": {
-              "projectPath": "C:\\Users\\SOFT\\Desktop\\ValidationRefactor\\ValidatonLibrary\\ValidatonLibrary.csproj"
+            "C:\\Users\\SOFT\\Desktop\\Yeni klasör\\ValidationRefactor\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\SOFT\\Desktop\\Yeni klasör\\ValidationRefactor\\Entities\\Entities.csproj"
+            },
+            "C:\\Users\\SOFT\\Desktop\\Yeni klasör\\ValidationRefactor\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\SOFT\\Desktop\\Yeni klasör\\ValidationRefactor\\Services\\Services.csproj"
+            },
+            "C:\\Users\\SOFT\\Desktop\\Yeni klasör\\ValidationRefactor\\ValidatonLibrary\\ValidatonLibrary.csproj": {
+              "projectPath": "C:\\Users\\SOFT\\Desktop\\Yeni klasör\\ValidationRefactor\\ValidatonLibrary\\ValidatonLibrary.csproj"
             }
           }
         }
